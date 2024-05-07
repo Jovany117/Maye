@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/poke_logo.png">
+    <link rel="stylesheet" href="/styles/uni_3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Hiatus</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <a href="/home.html">Hiatus</a>
+        </div>
+    </header>
+
+    <div class="todo">
+        <div class="temario">
+            <h2 class="titulo">
+                Unidad 3: Lógica Matemática
+            </h2>
+            <div class="temas">
+                <a href="./tema_3.1.html">3.1 Lógica Proposicional</a>
+                <a href="./tema_3.1.1.html">3.1.1 Proposiciones simples y compuestas</a>
+                <a href="./tema_3.1.2.html">3.1.2 Tablas de verdad</a>
+                <a href="./tema_3.1.3.html">3.1.3 Tautologías, contradicción y contingencia</a>
+                <a href="./tema_3.1.4.html" class="seleccionado">3.1.4 Equivalencias lógicas</a>
+                <a href="./tema_3.1.5.html">3.1.5 Reglas de inferencia</a>
+                <a href="./tema_3.1.6.html">3.1.6 Argumentos válidos y no validos</a>
+                <a href="./tema_3.1.7.html">3.1.7 Demostración formal</a>
+                <a href="./tema_3.2.html">3.2 Lógica de predicados</a>
+                <a href="./tema_3.2.1.html">3.2.1 Cuantificadores</a>
+                <a href="./tema_3.2.2.html">3.2.2 Representación y evaluación de predicados</a>
+                <a href="./tema_3.3.html">3.3 Algebra declarativa</a>
+                <a href="./tema_3.4.html">3.4 Inducción matemática</a>
+                <a href="./tema_3.5.html">3.5 Aplicaciones de la lógica matemática en la computación</a>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <h2 class="titulo_cont">3.1.4 Equivalencias lógicas</h2>
+            <div class="info_cont">
+                <p><b>Definición:</b><br>
+                    Dos formas proposicionales P y Q se dicen lógicamente equivalentes, y se escribe P ≡ Q, si sus tablas de verdad coinciden.<br><br>
+                    <b>Nota:</b><br>
+                    Esto equivale a decir que P ↔ Q es una tautología; así, P ≡ Q es lo
+                    mismo que decir P ⇔ Q.<br><br>
+                    <b>Ejemplo:</b><br>
+                    El programa está bien escrito y bien documentado.<br>
+                    El programa está bien documentado y bien escrito.</p>
+            </div>
+            <div class="info_cont">
+                <p><b>Leyes de Morgan:</b><br>
+                1. ~ (p ∨ q) ≡~ p∧ ~ q<br>  A continuación se muestra en su tabla correspondiente:
+                </p>
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/leyes-de-morgan-eq.jpg" alt="">
+            </div>
+            <div class="info_cont">
+                <p><b>Transposición o Contrareciproco:</b><br>
+                    La contrarrecíproca o trasposición de una proposición
+                    condicional p → q es la proposición  ~q →~p<br><br>
+                    Teorema:<br>
+                    La proposición condicional p → q y su contrarrecíproca
+                    ~q →~p son lógicamente equivalentes.<br>
+                    A continuación se muestra en su tabla correspondiente:
+                </p>
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/transposicion.jpg" alt="">
+            </div>
+            <div class="info_cont">
+                <p><b>Eliminación de condicionales:</b><br>
+                P → Q ≡~P ∨ Q <br>
+                A continuación se muestra en su tabla correspondiente:
+                </p>
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/eliminacion.jpg" alt="">
+            </div>
+            <div class="info_cont">
+                <p><b>Leyes de la logíca:</b></p>
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/leyes-d-la-logica-1.jpg" alt="">
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/leyes-d-la-logica-2.jpg" alt="">
+            </div>
+            <div class="info_cont">
+                <p><b>Leyes de absorción:</b><br>
+                    P ∨ (P ∧ Q) ≡ P<br>
+                    P ∧ (P ∨ Q) ≡ P<br>
+                    P ∨ (P ∧ Q) ≡ (P ∧ V ) ∨ (P ∧ Q) Ley de identidad<br>
+                    P ∧ (V ∨ Q) Ley distributiva<br>
+                    P ∧ V Ley de dominación<br>
+                    P Ley de identidad</p>
+            </div>
+            <div class="img_cont">
+                <iframe src="https://www.youtube.com/embed/UYzNy4DtTHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    
+    </div>
+
+    <footer>
+        <p class="text_footer">
+            Pagina creada por el equipo Pokémon 2020 &copy;
+        </p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/poke_logo.png">
+    <link rel="stylesheet" href="/styles/uni_3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Hiatus</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <a href="/home.html">Hiatus</a>
+        </div>
+    </header>
+
+    <div class="todo">
+        <div class="temario">
+            <h2 class="titulo">
+                Unidad 3: Lógica Matemática
+            </h2>
+            <div class="temas">
+                <a href="./tema_3.1.html">3.1 Lógica Proposicional</a>
+                <a href="./tema_3.1.1.html">3.1.1 Proposiciones simples y compuestas</a>
+                <a href="./tema_3.1.2.html">3.1.2 Tablas de verdad</a>
+                <a href="./tema_3.1.3.html">3.1.3 Tautologías, contradicción y contingencia</a>
+                <a href="./tema_3.1.4.html">3.1.4 Equivalencias lógicas</a>
+                <a href="./tema_3.1.5.html" class="seleccionado">3.1.5 Reglas de inferencia</a>
+                <a href="./tema_3.1.6.html">3.1.6 Argumentos válidos y no validos</a>
+                <a href="./tema_3.1.7.html">3.1.7 Demostración formal</a>
+                <a href="./tema_3.2.html">3.2 Lógica de predicados</a>
+                <a href="./tema_3.2.1.html">3.2.1 Cuantificadores</a>
+                <a href="./tema_3.2.2.html">3.2.2 Representación y evaluación de predicados</a>
+                <a href="./tema_3.3.html">3.3 Algebra declarativa</a>
+                <a href="./tema_3.4.html">3.4 Inducción matemática</a>
+                <a href="./tema_3.5.html">3.5 Aplicaciones de la lógica matemática en la computación</a>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <h2 class="titulo_cont">3.1.5 Reglas de inferencia</h2>
+            <div class="info_cont">
+                <p>Inferir es concluir o decidir a partir de algo conocido o asumido; llegar a una conclusión. A su vez, razonar es pensar coherente y lógicamente; establecer inferencias o conclusiones a partir de hechos conocidos o asumidos.<br><br>
+                <b>MODUS PONENS:</b><br> 
+                Es la más importante, en los sistemas basados en conocimiento.<br>
+                Establece que: Si las sentencias p y (p → q) se conocen que son verdaderas, entonces se puede inferir que q también es verdadera.<br><br>
+                <b>MODUS TOLENS:</b><br> 
+                Esta regla establece que: Si la sentencia (p→q) es verdadera y q es falsa, entonces se puede inferir que p también es falsa.</p>
+            </div>
+            <div class="info_cont">
+                <p>
+                    <b>Resolución:</b><br> 
+                    Utiliza refutación para comprobar una determinada sentencia. La refutación intenta crear una contradicción con la negación de la sentencia original, demostrando, por lo tanto, que la sentencia original es verdadera. La resolución es una técnica poderosa para probar teoremas en lógica y constituye la técnica básica de inferencia en PROLOG, un lenguaje que manipula en forma computacional la lógica de predicados. La regla de resolución, establece que: Si (A∨ B) es verdadero y (~B ∨ C) es verdadero, entonces (A ∨ C) también es verdadero.<br><br>
+                    <b>Abducción:</b><br> 
+                    Es un método de razonamiento comúnmente utilizado para generar explicaciones. A diferencia de la inducción, la abducción no garantiza que se puedan lograr conclusiones verdaderas, por lo tanto no es un método sólido de inferencia. La forma que tiene la abducción es la siguiente:<br>
+                    Si la sentencia (A → B) es verdadera y B es verdadera, entonces A es posiblemente verdadera.
+                </p>
+            </div>
+            <div class="info_cont">
+                <p>MPP Modus ponendo ponens<br>
+                    A → B<br>
+                    A<br>
+                    – – – – – <br>
+                    B<br><br>
+                    MTT Modus tollendo tollens<br>
+                    A → B<br>
+                    ¬B<br>
+                    – – – – –<br>      
+                    ¬A<br><br>
+                    SD Silogismo Disyuntivo<br>
+                    A ∨ B<br>
+                    ¬A<br>
+                    – – – – – <br>
+                    ¬B<br><br>
+                    SH Silogismo hipotético<br>
+                    A → B<br>
+                    B → C<br>
+                    – – – – –<br>
+                    A → C<br><br>
+                    LS Ley de simplificación<br>
+                    A ∧ B<br>
+                    – – – – –<br>      
+                    A<br><br>
+                    LA Ley de adición<br>
+                    A<br>
+                    – – – – –<br>
+                    A ∨ B<br><br>
+                    CONTRAPOSITIVA<br>
+                    A → B<br>
+                    – – – – –<br>      
+                    ¬B → ¬A</p>
+            </div>
+            <div class="img_cont">
+                <iframe src="https://www.youtube.com/embed/dgylbQqnnIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text_footer">
+            Pagina creada por el equipo Pokémon 2020 &copy;
+        </p>
+    </footer>
+    
+</body>
+</html>

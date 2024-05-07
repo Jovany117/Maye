@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/poke_logo.png">
+    <link rel="stylesheet" href="/styles/uni_3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Hiatus</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <a href="/home.html">Equipo 2</a>
+        </div>
+    </header>
+
+    <div class="todo">
+        <div class="temario">
+            <h2 class="titulo">
+                Unidad 3: KDD vs minería de datos
+            </h2>
+            <div class="temas">
+                <a href="./tema_3.1.html">3.1 Knowledge discovery in databases</a>
+                <!-- <a href="./tema_3.1.1.html">3.1.1 Proposiciones simples y compuestas</a>
+                <a href="./tema_3.1.2.html">3.1.2 Tablas de verdad</a>
+                <a href="./tema_3.1.3.html">3.1.3 Tautologías, contradicción y contingencia</a>
+                <a href="./tema_3.1.4.html">3.1.4 Equivalencias lógicas</a>
+                <a href="./tema_3.1.5.html">3.1.5 Reglas de inferencia</a>
+                <a href="./tema_3.1.6.html">3.1.6 Argumentos válidos y no validos</a>
+                <a href="./tema_3.1.7.html">3.1.7 Demostración formal</a> -->
+                <a href="./tema_3.2.html">3.2 Proceso KDD centrado en el usuario</a>
+                <!-- <a href="./tema_3.2.1.html">3.2.1 Cuantificadores</a>
+                <a href="./tema_3.2.2.html">3.2.2 Representación y evaluación de predicados</a> -->
+                <a href="./tema_3.3.html" class="seleccionado">3.3 Proceso asistido por un agente inteligente</a>
+                <a href="./tema_3.4.html">3.4 Objetivos</a>
+                <a href="./tema_3.5.html">3.5 Ventajas y Desventajas de KDD</a>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <h2 class="titulo_cont">3.3 Proceso asistido por un agente inteligente</h2>
+            <div class="info_cont">
+                <p>Todas estas metodologías se preocupan en como convertir los datos en información, como
+                    llevar a cabo un trabajo organizado, y como diseminar la información de una manera en la cual los
+                    stakeholders1
+                     puedan fácilmente convertirla en recursos para la toma de decisiones.
+                    Algunas de las herramientas que se encuentran actualmente en el mercado fueron
+                    específicamente diseñadas y documentadas para caber dentro de uno de estos marcos específicos.
+                    Como dijimos anteriormente el proceso de KDD es interactivo e iterativo por naturaleza, e
+                    involucra una serie de pasos, en los que se incluyen decisiones tomadas por el usuario. En general,
+                    involucrando más, o menos pasos, la estructura general sigue la siguiente forma:</p>
+            </div>
+            <div class="info_cont">
+                <p>
+                    1) Entender el dominio de aplicación, cuál es el problema a resolver, y cuales son los objetivos. <br><br>
+                    2) Seleccionar del conjunto de datos originales, un subconjunto apropiado, para el problema
+                    que deseamos resolver. Eliminando por ejemplo variables irrelevantes.<br><br>
+                    3) En la etapa de limpieza y pre procesamiento se deberían tomar decisiones con respecto a
+                    valores faltantes, atípicos, erróneos, etc. (ruido). También se podría necesitar normalizar los
+                    valores de las variables o llevar a cabo otras tareas similares. La etapa de preparación y
+                    limpieza es a veces una etapa descuidada pero de suma importancia en este proceso, dado
+                    que grandes cantidades de datos son recolectados por medio de métodos automáticos (ej. vía
+                    web). <br>A veces el método por el cuál los datos fueron obtenidos no fue cuidadosamente
+                    controlado, y así los datos podrían contener valores fuera de rango (ej. edades negativas),
+                    combinaciones incorrectas de datos (Sexo: masculino; embarazada: si), y otros. Ingresar
+                    estos datos erróneos a los algoritmos de data mining solo lleva a entorpecer su proceso de
+                    aprendizaje, o a conseguir resultados alejados del comportamiento real.<br><br>
+                    4) Encontrar características útiles para representar a los datos dependiendo de los objetivos.
+                    Reducción de dimensiones (ej. Kohonen) para llevar adelante el trabajo con un número
+                    reducido de variables. Eliminar columnas que varían juntas, como por ejemplo fecha de
+                    nacimiento y edad, simplemente tabular, aggregation (calcular estadísticos descriptivos), o
+                    técnicas más sofisticadas como clustering o análisis de componentes principales.<br><br>
+                    5) Elegir las herramientas de data mining adecuadas al problema a resolver, teniendo en cuenta
+                    el objetivo (predecir, explicar, clasificar, agrupar, etc). También se debe en esta etapa,
+                    establecer los parámetros de las redes utilizadas (arquitectura de la red, datos de
+                    entrenamiento, de validación y de testeo, etc). Una vez realizada la tarea, se procede con el
+                    descubrimiento de patrones y relaciones en los datos, para presentárselos al usuario de una
+                    manera adecuada (gráficos, árboles, reglas, etc). <br><br>
+                    6) Interpretación de los datos, llevada a cabo por el analista. <br><br>
+                    7) En esta etapa se debería consolidar el conocimiento ganado, probando los modelos creados
+                    contra los resultados obtenidos de la aplicación de estos modelos en el mundo real.</p>
+            </div>
+            <div class="especial">
+                <img src="/img/materias/unidades_mate/uni_3/Datos1.jpeg" alt="">
+            </div>
+            <!-- <div class="info_cont">
+                <p>Con esto, comprobamos que la negación de la primera equivale a la negación de la segunda, es decir:<br><br>
+                    ~ (p Þ q) Û ~{ ~(p Ù ~ q)}, y podemos concluir entonces que:<br>
+                    ~( p Þ q ) Û ( p Ù ~ q)<br><br>
+                    Es decir, la negación de una implicación no es una implicación sino la conjunción del antecedente con la negación del consecuente.<br><br>
+                    <b>Ejemplo:</b><br>
+                    Sea la implicación p: hoy es viernes entonces mañana es domingo.<br>
+                    Su negación es ~ p: hoy es viernes y mañana no es domingo.</p>
+            </div>
+            <div class="img_cont">
+                <iframe src="https://www.youtube.com/embed/Og9VAYbnR7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> -->
+    
+    </div>
+
+    <footer>
+        <p class="text_footer">
+            Pagina creada por el equipo &copy;
+        </p>
+    </footer>
+    
+</body>
+</html>
